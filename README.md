@@ -3,7 +3,7 @@ Hometask #1
 - Create Vagrantfile
 - Centos generic/centos9s
 - Provision Nginx server
-- Forward port 80 → 8888
+- Forward port 80 → 8787
 - Push your project to github (and add user sko-lv as colaborator) Commands to install nginx on Centos:
   yum install -y epel-release
   yum install -y nginx
@@ -15,9 +15,9 @@ Hometask #1
   systemctl stop firewalld
   Success criteria:
   vagrant up
-  In your browser goto localhost:8888
+  In your browser goto localhost:8787
   See content placed to ~/www-content (*)
 
 ## How to start:
 1. vagrant up 
-2. visit http://localhost:8888/
+2. visit http://localhost:8787/
